@@ -31,7 +31,7 @@ int main()
 	S1 = sqrt(P1 * (P1 - dl1) * (P1 - dl41) * (P1 - dl43));
 	S2 = sqrt(P2 * (P2 - dl2) * (P2 - dl41) * (P2 - dl42));
 	S3 = sqrt(P3 * (P3 - dl3) * (P3 - dl42) * (P3 - dl43));
-
+//ioiwruirhgergerg
 	if ((S - S1 - S2 - S3) < eps) cout << "точка в треугольнике";
 	else cout << "точка вне треугольника";
 }
